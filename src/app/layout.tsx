@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br" suppressHydrationWarning>
       <body
-        className={`antialiased max-w-screen-xl min-h-screen w-screen flex flex-col items-center mx-auto pt-8 bg-faint-white text-black`}
+        className={`antialiased max-w-screen-2xl min-h-screen w-screen flex flex-col items-center mx-auto pt-8 bg-faint-white text-black overflow-x-hidden`}
       >
         {children}
       </body>
